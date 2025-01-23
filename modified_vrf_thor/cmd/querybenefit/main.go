@@ -55,7 +55,6 @@ func main() {
 		for _, node := range nodeBenefitList {
 			acc := accountInfo(*restUrl, node.benefit, strconv.Itoa(int(i)))
 			energy := big.Int(acc.Energy)
-			//处理金额
 			energyFloat, err := strconv.ParseFloat(energy.Text(10), 64)
 			if err != nil {
 				log.Fatalf("strconv.ParseFloat err: %v", err)
