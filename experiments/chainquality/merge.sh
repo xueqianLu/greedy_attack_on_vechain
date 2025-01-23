@@ -1,0 +1,2 @@
+#!/bin/bash
+cat attack_vrf_node0_part_aa attack_vrf_node0_part_ab attack_vrf_node0_part_ac attack_vrf_node0_part_ad attack_vrf_node0_part_ae attack_vrf_node0_part_af attack_vrf_node0_part_ag attack_vrf_node0_part_ah > attack_vrf_node0.tar.gz
